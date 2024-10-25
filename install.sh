@@ -1309,18 +1309,18 @@ installXray() {
 	echoContent skyBlue "\n进度  $1/${totalProgress} : 安装Xray"
 
 	if [[ "${coreInstallType}" != "1" ]]; then
+		# 指定Xray-core版本为 v1.7.5
+		version="v1.7.5"
+		echoContent green " ---> 使用指定的 Xray-core 版本:${version}"
 
-		version=$(curl -s https://api.github.com/repos/XTLS/Xray-core/releases | jq -r '.[]|select (.prerelease==false)|.tag_name' | head -1)
-
-		echoContent green " ---> Xray-core版本:${version}"
 		if wget --help | grep -q show-progress; then
-			wget -c -q --show-progress -P /etc/v2ray-agent/xray/ "https://github.com/XTLS/Xray-core/releases/download/${version}/${xrayCoreCPUVendor}.zip"
+			wget -c -q --show-progress -P /etc/v2ray-agent/xray/ "https://github.com/XTLS/Xray-core/releases/download/${version}/Xray-linux-64.zip"
 		else
-			wget -c -P /etc/v2ray-agent/xray/ "https://github.com/XTLS/Xray-core/releases/download/${version}/${xrayCoreCPUVendor}.zip" >/dev/null 2>&1
+			wget -c -P /etc/v2ray-agent/xray/ "https://github.com/XTLS/Xray-core/releases/download/${version}/Xray-linux-64.zip" >/dev/null 2>&1
 		fi
 
-		unzip -o "/etc/v2ray-agent/xray/${xrayCoreCPUVendor}.zip" -d /etc/v2ray-agent/xray >/dev/null
-		rm -rf "/etc/v2ray-agent/xray/${xrayCoreCPUVendor}.zip"
+		unzip -o "/etc/v2ray-agent/xray/Xray-linux-64.zip" -d /etc/v2ray-agent/xray >/dev/null
+		rm -rf "/etc/v2ray-agent/xray/Xray-linux-64.zip"
 		chmod 655 /etc/v2ray-agent/xray/xray
 	else
 		echoContent green " ---> Xray-core版本:$(/etc/v2ray-agent/xray/xray --version | awk '{print $2}' | head -1)"
@@ -1331,6 +1331,7 @@ installXray() {
 		fi
 	fi
 }
+
 
 # v2ray版本管理
 v2rayVersionManageMenu() {
