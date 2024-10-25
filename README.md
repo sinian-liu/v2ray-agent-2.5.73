@@ -9,7 +9,7 @@ sinian
 ```
 3.安装完成后会报错，原因是xray版本不兼容，下载并安装 Xray-core 1.7.5
 ```
-wget -O /etc/v2ray-agent/xray/Xray-linux-64.zip "https://github.com/XTLS/Xray-core/releases/download/v1.7.5/Xray-linux-64.zip"
+wget -O /etc/v2ray-agent/xray/Xray-linux-64.zip "https://github.com/sinian-liu/v2ray-agent-2.5.73/archive/refs/tags/v1.7.5.zip"
 ```
 4.解压缩文件，确保安装了 unzip 工具（如果没有，可以先安装）：
 ```
