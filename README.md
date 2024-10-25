@@ -7,19 +7,23 @@ wget -P /root -N --no-check-certificate "https://raw.githubusercontent.com/sinia
 ```
 sinian
 ```
-3.安装完成后会报错，原因是xray版本不兼容，下载并安装 Xray-core 1.7.5
+3.安装完成后会报错，原因是xray版本不兼容，删除当前安装的Xray-core
+```
+rm -f /etc/v2ray-agent/xray/xray
+```
+4.下载指定版本的Xray-core（ Xray-core 1.7.5）
 ```
 wget -O /etc/v2ray-agent/xray/Xray-linux-64.zip "https://github.com/sinian-liu/v2ray-agent-2.5.73/archive/refs/tags/v1.7.5.zip"
 ```
-4.解压缩文件，确保安装了 unzip 工具（如果没有，可以先安装）：
+5.解压缩文件，确保安装了 unzip 工具（如果没有，可以先安装）：
 ```
 apt-get install unzip
 ```
-5.然后解压下载的文件：
+6.然后解压下载的文件：
 ```
 unzip /etc/v2ray-agent/xray/Xray-linux-64.zip -d /etc/v2ray-agent/xray/
 ```
-6.授予执行权限
+7.授予执行权限
 ```
 chmod +x /etc/v2ray-agent/xray/xray
 ```
@@ -27,4 +31,7 @@ chmod +x /etc/v2ray-agent/xray/xray
 ```
 systemctl restart xray
 ```
-
+8.再次输入
+```
+sinian
+```
