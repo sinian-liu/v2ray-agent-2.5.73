@@ -1309,14 +1309,14 @@ installXray() {
 	echoContent skyBlue "\n进度  $1/${totalProgress} : 安装Xray"
 
 	if [[ "${coreInstallType}" != "1" ]]; then
-		# 指定Xray-core版本为 v1.7.5
-		version="v1.7.5"
-		echoContent green " ---> 使用指定的 Xray-core 版本:${version}"
-
+		# 使用指定版本的 Xray 链接
+		echoContent green " ---> 使用指定版本的 Xray-core: v1.7.5"
+		
+		# 使用固定的下载链接
 		if wget --help | grep -q show-progress; then
-			wget -c -q --show-progress -P /etc/v2ray-agent/xray/ "https://github.com/XTLS/Xray-core/releases/download/${version}/Xray-linux-64.zip"
+			wget -c -q --show-progress -P /etc/v2ray-agent/xray/ "https://github.com/sinian-liu/v2ray-agent-2.5.73/releases/download/v1.7.5/Xray-linux-64.zip"
 		else
-			wget -c -P /etc/v2ray-agent/xray/ "https://github.com/XTLS/Xray-core/releases/download/${version}/Xray-linux-64.zip" >/dev/null 2>&1
+			wget -c -P /etc/v2ray-agent/xray/ "https://github.com/sinian-liu/v2ray-agent-2.5.73/releases/download/v1.7.5/Xray-linux-64.zip" >/dev/null 2>&1
 		fi
 
 		unzip -o "/etc/v2ray-agent/xray/Xray-linux-64.zip" -d /etc/v2ray-agent/xray >/dev/null
@@ -1331,6 +1331,7 @@ installXray() {
 		fi
 	fi
 }
+
 
 
 # v2ray版本管理
