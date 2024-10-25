@@ -1,0 +1,70 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  212k  100  212k    0     0  4420k      0 --:--:-- --:--:-- --:--:-- 4330k
+[Sat Sep  3 02:21:46 CST 2022] Installing from online archive.
+[Sat Sep  3 02:21:46 CST 2022] Downloading https://github.com/acmesh-official/acme.sh/archive/master.tar.gz
+[Sat Sep  3 02:21:46 CST 2022] Extracting master.tar.gz
+[Sat Sep  3 02:21:46 CST 2022] Installing to /root/.acme.sh
+[Sat Sep  3 02:21:46 CST 2022] Installed to /root/.acme.sh/acme.sh
+[Sat Sep  3 02:21:46 CST 2022] Installing alias to '/root/.bashrc'
+[Sat Sep  3 02:21:46 CST 2022] OK, Close and reopen your terminal to start using acme.sh
+[Sat Sep  3 02:21:46 CST 2022] Installing cron job
+no crontab for root
+no crontab for root
+[Sat Sep  3 02:21:46 CST 2022] Good, bash is found, so change the shebang to use bash as preferred.
+[Sat Sep  3 02:21:47 CST 2022] OK
+[Sat Sep  3 02:21:47 CST 2022] Install success!
+[Sat Sep  3 02:21:57 CST 2022] Using CA: https://acme-v02.api.letsencrypt.org/directory
+[Sat Sep  3 02:21:57 CST 2022] Standalone mode.
+[Sat Sep  3 02:21:57 CST 2022] Create account key ok.
+[Sat Sep  3 02:21:57 CST 2022] Registering account: https://acme-v02.api.letsencrypt.org/directory
+[Sat Sep  3 02:21:58 CST 2022] Registered
+[Sat Sep  3 02:21:58 CST 2022] ACCOUNT_THUMBPRINT='_Qca1qdzx8YAbmxhOcFCuPfqrKEDgsCVkzEfXp1XrC8'
+[Sat Sep  3 02:21:58 CST 2022] Creating domain key
+[Sat Sep  3 02:21:58 CST 2022] The domain key is here: /root/.acme.sh/lsb.tangyys.cn_ecc/lsb.tangyys.cn.key
+[Sat Sep  3 02:21:58 CST 2022] Single domain='lsb.tangyys.cn'
+[Sat Sep  3 02:21:58 CST 2022] Getting domain auth token for each domain
+[Sat Sep  3 02:21:59 CST 2022] Getting webroot for domain='lsb.tangyys.cn'
+[Sat Sep  3 02:21:59 CST 2022] Verifying: lsb.tangyys.cn
+[Sat Sep  3 02:21:59 CST 2022] Standalone mode server
+[Sat Sep  3 02:22:01 CST 2022] Pending, The CA is processing your order, please just wait. (1/30)
+[Sat Sep  3 02:22:03 CST 2022] Pending, The CA is processing your order, please just wait. (2/30)
+[Sat Sep  3 02:22:06 CST 2022] Pending, The CA is processing your order, please just wait. (3/30)
+[Sat Sep  3 02:22:08 CST 2022] Pending, The CA is processing your order, please just wait. (4/30)
+[Sat Sep  3 02:22:11 CST 2022] Success
+[Sat Sep  3 02:22:11 CST 2022] Verify finished, start to sign.
+[Sat Sep  3 02:22:11 CST 2022] Lets finalize the order.
+[Sat Sep  3 02:22:11 CST 2022] Le_OrderFinalize='https://acme-v02.api.letsencrypt.org/acme/finalize/714287207/121904510107'
+[Sat Sep  3 02:22:12 CST 2022] Downloading cert.
+[Sat Sep  3 02:22:12 CST 2022] Le_LinkCert='https://acme-v02.api.letsencrypt.org/acme/cert/045bc52b471876e3f0966bc5fc45f4049509'
+[Sat Sep  3 02:22:13 CST 2022] Cert success.
+-----BEGIN CERTIFICATE-----
+MIIEVjCCAz6gAwIBAgISBFvFK0cYduPwlmvF/EX0BJUJMA0GCSqGSIb3DQEBCwUA
+MDIxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQswCQYDVQQD
+EwJSMzAeFw0yMjA5MDIxNzIyMTFaFw0yMjEyMDExNzIyMTBaMBkxFzAVBgNVBAMT
+DmxzYi50YW5neXlzLmNuMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE4e5oNUEi
+qU6iHrz6xCaU1++RgfTv5Z4PIbSFvF+J28vEncn+F1sQhsW4Us75s4fNof5JMbjJ
+eDyy4Y2hIJ+/z6OCAkgwggJEMA4GA1UdDwEB/wQEAwIHgDAdBgNVHSUEFjAUBggr
+BgEFBQcDAQYIKwYBBQUHAwIwDAYDVR0TAQH/BAIwADAdBgNVHQ4EFgQUdNUCtGt/
+q+Rzp9wTlUvssXFmzq8wHwYDVR0jBBgwFoAUFC6zF7dYVsuuUAlA5h+vnYsUwsYw
+VQYIKwYBBQUHAQEESTBHMCEGCCsGAQUFBzABhhVodHRwOi8vcjMuby5sZW5jci5v
+cmcwIgYIKwYBBQUHMAKGFmh0dHA6Ly9yMy5pLmxlbmNyLm9yZy8wGQYDVR0RBBIw
+EIIObHNiLnRhbmd5eXMuY24wTAYDVR0gBEUwQzAIBgZngQwBAgEwNwYLKwYBBAGC
+3xMBAQEwKDAmBggrBgEFBQcCARYaaHR0cDovL2Nwcy5sZXRzZW5jcnlwdC5vcmcw
+ggEDBgorBgEEAdZ5AgQCBIH0BIHxAO8AdgDfpV6raIJPH2yt7rhfTj5a6s2iEqRq
+Xo47EsAgRFwqcwAAAYL/cGSAAAAEAwBHMEUCIEZOKh2LKYOoQXipCBQjdLWpkvgF
+cjQZARpkTBgKkZ7qAiEAliR19SVwOViY0RYpnykJwQx44w39w1B6mZi1kjF/FyIA
+dQBGpVXrdfqRIDC1oolp9PN9ESxBdL79SbiFq/L8cP5tRwAAAYL/cGS0AAAEAwBG
+MEQCIBInZRjckh8STSMU7GNrbN1On5FkPwTxyHqOrNnYjd3aAiAZ1fjS+XOJiZiw
+5otAmbo5Ucvk3Xpd5Pfq6RbJaxzjUzANBgkqhkiG9w0BAQsFAAOCAQEAlHEuEYww
+ZU9VK9fXdYi9p/AFSQdBPVpTqUIFUg8whm44+piwNP+Je2uuZ/5lBp4RnltDWnzp
+4T+4RKrzLiyCSVlpnFgv7UeNmN9GnpOrkaM5AJGVwDPCZB+0XWapeoyu3/5qezqu
+nf00fAHCIaERZrKsdZFp4+pxhSxnU9ILHxyhbjQhjtj8A3dO+Quu4ewAfVekBKxz
+25fXj+ihBGQ5UW7QX2tfHEH3ZUIV1OhUh4Kv3Sd02fnV/7/BkHJCwa+R/FEEhGlQ
+Cwlgu9fP8bq8QBYl0l/66GXmvhUUnwFyJzc+xR8UDfz+3qAs5rBDaQ6hwctKGqcY
+I94nlCjCLYsIyg==
+-----END CERTIFICATE-----
+[Sat Sep  3 02:22:13 CST 2022] Your cert is in: /root/.acme.sh/lsb.tangyys.cn_ecc/lsb.tangyys.cn.cer
+[Sat Sep  3 02:22:13 CST 2022] Your cert key is in: /root/.acme.sh/lsb.tangyys.cn_ecc/lsb.tangyys.cn.key
+[Sat Sep  3 02:22:13 CST 2022] The intermediate CA cert is in: /root/.acme.sh/lsb.tangyys.cn_ecc/ca.cer
+[Sat Sep  3 02:22:13 CST 2022] And the full chain certs is there: /root/.acme.sh/lsb.tangyys.cn_ecc/fullchain.cer

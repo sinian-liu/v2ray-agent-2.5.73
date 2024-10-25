@@ -1,0 +1,21 @@
+{
+  "routing": {
+    "domainStrategy": "IPOnDemand",
+    "rules": [
+      {
+        "type": "field",
+        "outboundTag": "blackhole-out",
+        "protocol": [
+          "bittorrent"
+        ]
+      },
+      {
+        "type": "field",
+        "outboundTag": "blackhole-out",
+        "protocol": [
+          "bittorrent"
+        ]
+      }
+    ]
+  }
+}

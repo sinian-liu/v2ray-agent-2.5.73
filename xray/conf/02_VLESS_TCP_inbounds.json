@@ -1,0 +1,291 @@
+{
+  "inbounds": [
+    {
+      "port": 443,
+      "protocol": "vless",
+      "tag": "VLESSTCP",
+      "settings": {
+        "clients": [
+          {
+            "id": "aff2b0c5-3d2b-4214-9ca4-87d7182d801a",
+            "flow": "xtls-rprx-direct",
+            "email": "359068546@qq.com"
+          },
+          {
+            "id": "bfa3b8e5-f592-4999-ab91-5bdd11178dc5",
+            "flow": "xtls-rprx-direct",
+            "email": "1685205066@qq.com"
+          },
+          {
+            "id": "a1704473-7d07-4e94-ba0f-76fe289228e3",
+            "flow": "xtls-rprx-direct",
+            "email": "15107868"
+          },
+          {
+            "id": "69a925c7-fee2-48b7-b20c-f830e3f27a2e",
+            "flow": "xtls-rprx-direct",
+            "email": "77595363"
+          },
+          {
+            "id": "9f0cf77c-a224-4b51-b8cb-7482d81aeb2d",
+            "flow": "xtls-rprx-direct",
+            "email": "2954842704"
+          },
+          {
+            "id": "3929f485-c2f7-4e18-8e60-03b10437475c",
+            "flow": "xtls-rprx-direct",
+            "email": "378632295"
+          },
+          {
+            "id": "8cc7ad47-22fa-4994-8abe-062704abd961",
+            "flow": "xtls-rprx-direct",
+            "email": "378632295（账号三）"
+          },
+          {
+            "id": "7c3c722c-d7be-4220-9937-b3cba7dfc7d2",
+            "flow": "xtls-rprx-direct",
+            "email": "cc001-0572"
+          },
+          {
+            "id": "18d8ce29-b9d7-4812-94e8-fd475bada59d",
+            "flow": "xtls-rprx-direct",
+            "email": "1239868016@qq.com"
+          },
+          {
+            "id": "2d28348f-2824-472a-a134-b19e7b60c946",
+            "flow": "xtls-rprx-direct",
+            "email": "自用"
+          },
+          {
+            "id": "7e968548-fa42-408d-8fb5-9567ac158b58",
+            "flow": "xtls-rprx-direct",
+            "email": "Xeloda"
+          },
+          {
+            "id": "73738de8-dc55-43a7-af46-e4b90c9b0035",
+            "flow": "xtls-rprx-direct",
+            "email": "1739737201"
+          },
+          {
+            "id": "4e8b90a9-f2ea-4c0e-999b-ab78666aa32b",
+            "flow": "xtls-rprx-direct",
+            "email": "327116180"
+          },
+          {
+            "id": "2caa2ef3-7b5c-4317-81d5-3b40bddfdc39",
+            "flow": "xtls-rprx-direct",
+            "email": "314049061"
+          },
+          {
+            "id": "98a6c2fc-092c-451c-ad37-0474bac36f54",
+            "flow": "xtls-rprx-direct",
+            "email": "346459059"
+          },
+          {
+            "id": "648c15a9-9e2f-4645-aa30-cc3fb5cecee0",
+            "flow": "xtls-rprx-direct",
+            "email": "1739737201（账号五）"
+          },
+          {
+            "id": "0c3e81f1-ad07-4d28-9db5-9b5e1de74d7f",
+            "flow": "xtls-rprx-direct",
+            "email": "609414491"
+          },
+          {
+            "id": "161b66ea-ad97-450e-b5f2-e5307544ab29",
+            "flow": "xtls-rprx-direct",
+            "email": "931254072"
+          },
+          {
+            "id": "dc762580-10c2-47ee-8721-188af3558946",
+            "flow": "xtls-rprx-direct",
+            "email": "350104334"
+          },
+          {
+            "id": "89dd039a-4b83-4af0-9bab-ec01f2c45cd7",
+            "flow": "xtls-rprx-direct",
+            "email": "852594742"
+          },
+          {
+            "id": "5fcea513-0bc9-4339-a787-22d99a59a1c2",
+            "flow": "xtls-rprx-direct",
+            "email": "1278951906"
+          },
+          {
+            "id": "bc5af44f-2afc-443a-bd46-9091343e1850",
+            "flow": "xtls-rprx-direct",
+            "email": "1318203054"
+          },
+          {
+            "id": "4d12289f-400b-4fa6-a1b0-7ededf7425c6",
+            "flow": "xtls-rprx-direct",
+            "email": "645461562"
+          },
+          {
+            "id": "4bba094a-ae9c-4140-8ce6-fe8b51d7b71c",
+            "flow": "xtls-rprx-direct",
+            "email": "1061341981"
+          },
+          {
+            "id": "115bf20d-7bfc-4d9c-83a6-7f5e5f09dc62",
+            "flow": "xtls-rprx-direct",
+            "email": "1976013267"
+          },
+          {
+            "id": "5e9e7854-8dc2-4f3a-9d8d-f96758ee92b8",
+            "flow": "xtls-rprx-direct",
+            "email": "2818320387"
+          },
+          {
+            "id": "bd4f1042-0890-48c3-bf91-70d0a588d9fa",
+            "flow": "xtls-rprx-direct",
+            "email": "528675148"
+          },
+          {
+            "id": "61477a6a-7ba3-4ef0-aab4-2e6d953bcee9",
+            "flow": "xtls-rprx-direct",
+            "email": "596916132@qq.com"
+          },
+          {
+            "id": "6485bf8f-ad21-4e27-9680-316eb46c4988",
+            "flow": "xtls-rprx-direct",
+            "email": "1765424002"
+          },
+          {
+            "id": "25e7a1b1-49e4-4c0f-a891-7a39780653da",
+            "flow": "xtls-rprx-direct",
+            "email": "735885198"
+          },
+          {
+            "id": "0ec3eca3-efa5-4326-bd52-a2bc92e4bd64",
+            "flow": "xtls-rprx-direct",
+            "email": "609414491（电脑2）"
+          },
+          {
+            "id": "215cc547-5fac-421c-955b-3a04a7c0e983",
+            "flow": "xtls-rprx-direct",
+            "email": "64949441"
+          },
+          {
+            "id": "7d6c8dc5-fea1-41ad-84a3-1cfabbd38bb7",
+            "flow": "xtls-rprx-direct",
+            "email": "versacev"
+          },
+          {
+            "id": "6d5b02c9-0b47-43d5-9a38-408934ce9471",
+            "flow": "xtls-rprx-direct",
+            "email": "190152827"
+          },
+          {
+            "id": "87b72de0-c604-4832-b8ac-a3f370c60c73",
+            "flow": "xtls-rprx-direct",
+            "email": "1349503588@qq.com"
+          },
+          {
+            "id": "aca97c6a-e0b0-4541-82dc-9bdbf2e0b36e",
+            "flow": "xtls-rprx-direct",
+            "email": "小林（客）"
+          },
+          {
+            "id": "886b03d4-b51f-4368-8d83-d43305718752",
+            "flow": "xtls-rprx-direct",
+            "email": "583430209"
+          },
+          {
+            "id": "df1f39f2-9218-4b7b-ad11-5452ccbcf16b",
+            "flow": "xtls-rprx-direct",
+            "email": "378632295（账号4）"
+          },
+          {
+            "id": "7f3ead1b-a3e5-4995-9939-3bcb415345d9",
+            "flow": "xtls-rprx-direct",
+            "email": "2719805724"
+          },
+          {
+            "id": "bc198b8d-9e87-4590-b58c-5134f58d7b95",
+            "flow": "xtls-rprx-direct",
+            "email": "378632295（账号六）"
+          },
+          {
+            "id": "d08a5f64-4924-48bf-a6fd-35fca50ec668",
+            "flow": "xtls-rprx-direct",
+            "email": "378632295（账号二）"
+          },
+          {
+            "id": "b209daf8-20dd-4a99-834c-906c9fbf3e28",
+            "flow": "xtls-rprx-direct",
+            "email": "455345666（账号二）"
+          },
+          {
+            "id": "488f7307-006d-4d10-b713-a64245500712",
+            "flow": "xtls-rprx-direct",
+            "email": "455345666"
+          },
+          {
+            "id": "44027a40-c650-4a8d-8966-471d1ba4df7a",
+            "flow": "xtls-rprx-direct",
+            "email": "2066218339"
+          },
+          {
+            "id": "c76cdd15-e607-4d61-840f-081875e97097",
+            "flow": "xtls-rprx-direct",
+            "email": "1692126617@qq.com"
+          },
+          {
+            "id": "fcf4b57d-566c-4fbe-b312-f48c9854ef1c",
+            "flow": "xtls-rprx-direct",
+            "email": "3075240853@qq.com"
+          },
+          {
+            "id": "aee2e4fe-ed42-4030-815d-a3a870345560",
+            "flow": "xtls-rprx-direct",
+            "email": "728130753@qq.com"
+          }
+        ],
+        "decryption": "none",
+        "fallbacks": [
+          {
+            "dest": 31300,
+            "xver": 0
+          },
+          {
+            "alpn": "h2",
+            "dest": 31302,
+            "xver": 0
+          },
+          {
+            "path": "/sgtgws",
+            "dest": 31297,
+            "xver": 1
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "xtls",
+        "xtlsSettings": {
+          "minVersion": "1.2",
+          "alpn": [
+            "http/1.1",
+            "h2"
+          ],
+          "certificates": [
+            {
+              "certificateFile": "/etc/v2ray-agent/tls/lsb.tangyys.cn.crt",
+              "keyFile": "/etc/v2ray-agent/tls/lsb.tangyys.cn.key",
+              "ocspStapling": 3600,
+              "usage": "encipherment"
+            }
+          ]
+        }
+      },
+      "sniffing": {
+        "enabled": true,
+        "destOverride": [
+          "http",
+          "tls"
+        ]
+      }
+    }
+  ]
+}
