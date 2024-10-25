@@ -7,7 +7,7 @@ wget -P /root -N --no-check-certificate "https://raw.githubusercontent.com/sinia
 ```
 sinian
 ```
-3.安装完成后如果会报错，原因是xray版本不兼容，删除当前安装的Xray-core，如果没报错直接运行即可
+3.安装完成后如果会报错，原因是xray版本不兼容，删除当前安装的Xray-core，如果没报错直接运行【sinian】即可，下面步骤不需再操作
 ```
 rm -f /etc/v2ray-agent/xray/xray
 ```
