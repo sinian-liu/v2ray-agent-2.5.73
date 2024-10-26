@@ -4725,16 +4725,16 @@ switchAlpn() {
 menu() {
 	cd "$HOME" || exit
 	echoContent red "\n=============================================================="
-	echoContent green "作者:mack-a"
+	echoContent green "作者:sinian-liu"
 	echoContent green "当前版本:v2.5.73"
-	echoContent green "Github:https://github.com/mack-a/v2ray-agent"
-	echoContent green "描述:八合一共存脚本\c"
+	echoContent green "Github:https://github.com/sinian-liu/v2ray-agent-2.5.73"
+	echoContent green "描述:改版八合一共存脚本\c"
 	showInstallStatus
 	echoContent red "\n=============================================================="
 	echoContent red "                        推广区                      "
-	echoContent green "AFF捐赠：https://github.com/mack-a/v2ray-agent/blob/master/documents/donation_aff.md\n"
-	echoContent green "虚拟币捐赠：0xB08b731653515b083deE362fefFc45d5eb96c35d\n"
-	echoContent green "推广可联系TG：https://t.me/mackaff"
+	echoContent green "服务器推荐：https://my.frantech.ca/aff.php?aff=4337"
+	echoContent green "官方网站：https://www.1373737.xyz/"
+	echoContent green "YouTube频道：https://www.youtube.com/@cyndiboy7881"
 	echoContent red "=============================================================="
 	if [[ -n "${coreInstallType}" ]]; then
 		echoContent yellow "1.重新安装"
