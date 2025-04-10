@@ -4733,7 +4733,7 @@ menu() {
 	echoContent red "\n=============================================================="
 	echoContent red "                        推广区                      "
 	echoContent green "服务器推荐：https://my.frantech.ca/aff.php?aff=4337"
-	echoContent red "37VPS主机评测：https://1373737.xyz"
+	echoContent red "37VPS主机评测：https://www.1373737.xyz"
 	echoContent green "YouTube频道：https://www.youtube.com/@cyndiboy7881"
 	echoContent red "=============================================================="
 	if [[ -n "${coreInstallType}" ]]; then
@@ -4769,7 +4769,7 @@ menu() {
 	echoContent yellow "18.查看日志"
 	echoContent yellow "19.卸载脚本"
         echoContent red "=============================================================="
-	echoContent yellow "37VPS主机评测：https://1373737.xyz"
+	echoContent yellow "37VPS主机评测：https://www.1373737.xyz"
         echoContent yellow "低价VPS ：https://my.frantech.ca/aff.php?aff=4337"
         echoContent red "=============================================================="
 	mkdirTools
