@@ -1,4 +1,5 @@
 # 旧版本、一键脚本在用版
+一键安装命令
 ```
 wget -P /tmp -N --no-check-certificate "https://raw.githubusercontent.com/sinian-liu/v2ray-agent-2.5.73/master/install.sh"
 ```
